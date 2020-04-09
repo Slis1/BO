@@ -1,0 +1,10 @@
+Program jest napisany w środowisku Spyder(anaconda) w języki python. Ponieważ biblioteka networkx przyjmuje wierzchołki tylko jako int,
+dokonałem mapowania:
+A->1
+B->2
+itp. 
+
+W dokumencie tekstowym wpisujemy nasz graf lub macierz w postaci:
+'Pierwszy wierchołek' 'Drugi wierchołek' 'waga drogi między tymi wierzchołkami'
+
+Heurystyke wpisałem ręcznie w programie, zapisałem ją jako słownik 'wierzchołek':'wartość heurystyki tego wierzchołka od końcowego'
